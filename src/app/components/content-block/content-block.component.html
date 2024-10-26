@@ -1,0 +1,19 @@
+<div
+  class="max-height"
+  style="max-height: 100%"
+  tuiAppearance="floating"
+  tuiCardLarge
+>
+  <header tuiHeader>
+    <h2 tuiTitle>{{label}}</h2>
+  </header>
+  <div class="message-container">
+    <div class="absolute-wrapper">
+      <tui-scrollbar>
+        <div class="wrapper">
+          <ng-content></ng-content>
+        </div>
+      </tui-scrollbar>
+    </div>
+  </div>
+</div>
